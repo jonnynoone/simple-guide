@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #2575bb;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1128px;
+    padding: 0 25px;
+    background: #fff;
+}
+
+#logo {
+    padding: 35px 10px;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.navigation {
+    background-color: #036;
+}
+
+.main-menu {
+    list-style: none;
+}
+
+.main-menu li {
+    float : left;
+}
+
+.main-menu li a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px 14px;
+    text-transform: uppercase;
+}
+
+.main-menu li a:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.hero {
+    width: 100%;
+    height: 390px;
+    background-color: green;
+}
+
+.hero .main-article,
+.hero .sub-article {
+    width: 50%;
+    height: 390px;
+}
+
+.hero .main-article {
+    background-image: url(https://source.unsplash.com/600x390/?girl);
+}
